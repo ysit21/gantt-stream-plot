@@ -5,10 +5,13 @@ Simple gantt chart using streamlit.
 ## install streamlit
 pip install streamlit
 
+## Store csv in schedule directory
+schedule/**.csv
+
 ## run
 streamlit run plot.py
 
-# ref
+# Ref
 
 ## Plotly doc
 https://plotly.com/python/gantt/
