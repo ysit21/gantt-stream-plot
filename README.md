@@ -10,6 +10,14 @@ pip install streamlit
 ## Store csv in schedule directory
 schedule/**.csv
 
+## csv header
+header = ['Task', 'Start', 'Finish', 'Category', 'Complete']
+
+||Task|Start|Finish|Category|Complete|
+|--|--|--|--|--|--|
+|format|str|YYYY-MM-DD|YYYY-MM-DD|str|int|
+|example|Task 1|2021-08-02|2021-08-03|Research|50|
+
 ## run
 streamlit run plot.py
 
