@@ -1,6 +1,8 @@
 # gantt-stream-plot
 Simple gantt chart using streamlit.
 
+![test](sample.png "sample")
+
 # Use
 ## install streamlit
 pip install streamlit
