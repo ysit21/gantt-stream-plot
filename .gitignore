@@ -1,3 +1,10 @@
+# mac file
+.DS_Store
+
+# venv lib
+venv/
+venv.sh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
