@@ -19,8 +19,9 @@ header = ['Task', 'Start', 'Finish', 'Category', 'Complete']
 |example|Task 1|2021-08-02|2021-08-03|Research|50|
 
 ## run
+```bash
 streamlit run plot.py
-
+```
 # Ref
 
 ## Plotly doc
