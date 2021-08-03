@@ -20,7 +20,7 @@ if uploaded_file is not None:
     # アップロードファイルをメイン画面にデータ表示
     df = pd.read_csv(path + uploaded_file, names=header)
 
-    # Persons
+    # Category
     df_Category = df['Category']
     Category = tuple(set(df_Category))
     #Persons = ('All', 'A', 'B', 'C', 'D')
