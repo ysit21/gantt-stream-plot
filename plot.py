@@ -22,10 +22,11 @@ if uploaded_file is not None:
 
     # Persons
     df_Category = df['Category']
-    Category = tuple(df_Category)
+    Category = tuple(set(df_Category))
     #Persons = ('All', 'A', 'B', 'C', 'D')
     #All = ("All")
     Categories = ('All',) + Category
+
 
     # セレクトボックス
     selector = st.selectbox(
